@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+height: 930px;
+width: 930px;
+border: 5px solid black;
+display: flex;
+margin: 20px auto;
+flex-wrap: wrap;
+background-color:aliceblue;
+}
+
+
+.square{
+    height: 56px;
+    width: 56px;
+    background-color: bisque;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.square.opacity:hover{
+opacity: 0.5;
+}
+
+
+button{
+    padding: 15px 32px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #e74ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
